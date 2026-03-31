@@ -214,7 +214,12 @@ function Hero() {
           </span>
         </p>
         <p className="fade-up delay-4" style={{ color: "var(--muted)", fontSize: "clamp(0.85rem,2vw,0.95rem)", maxWidth: 540, lineHeight: 1.8, marginTop: 14 }}>
-          Full Stack Developer delivering scalable web applications using React 18, Node.js, and MongoDB. Improved API performance by 50% and reduced defects by up to 40% through test automation across 20+ REST endpoints.
+          Full Stack Developer delivering scalable web applications using React 18, Node.js, and MongoDB. Improved API performance by 50% and reduced defects by up to 40% through test automation across 20+ REST endpoints. Hands-on experience with design tools such as Figma or Adobe XD.
+          Strong understanding of UI/UX principles, usability, and user-centered design.
+          Experience designing for both mobile applications and web platforms.
+          Ability to create wireframes, high-fidelity UI designs, and interactive prototypes.
+          Good understanding of responsive design and modern UI design practices.
+          Strong communication skills and ability to collaborate with product and engineering teams.
         </p>
         <div className="fade-up delay-5 btn-row" style={{ marginTop: 32 }}>
           <button className="btn-accent" onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}><span>View Projects</span><FiArrowUpRight size={14} /></button>
